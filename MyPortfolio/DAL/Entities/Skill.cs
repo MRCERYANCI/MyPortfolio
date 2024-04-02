@@ -1,4 +1,4 @@
-﻿namespace MyPortfolio.DAL
+﻿namespace MyPortfolio.DAL.Entities
 {
     public class Skill  //Yetenekler Tablosu
     {
