@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MyPortfolio.DAL
+namespace MyPortfolio.DAL.Entities
 {
     public class Feature  //Öne Çıkan Tablosu
     {
