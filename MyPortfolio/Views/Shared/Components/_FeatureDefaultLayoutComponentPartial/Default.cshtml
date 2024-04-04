@@ -1,18 +1,14 @@
-﻿<section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="/Vitrin Teması/hola-master/images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+﻿@model MyPortfolio.DAL.Entities.Feature
 
+<section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="/Vitrin Teması/hola-master/images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
     <div class="overlay"></div>
     <div class="shadow-overlay"></div>
-
     <div class="home-content">
-
         <div class="row home-content__main">
-
-            <h3>Merhaba</h3>
+            <h3>@Html.DisplayFor(x=>x.Title)</h3>
 
             <h1>
-                I am Jonathan Doe. <br>
-                I am a graphic & UI/UX <br>
-                designer based in Somewhere.
+                @Html.DisplayFor(x => x.Description)
             </h1>
 
             <div class="home-content__buttons">
