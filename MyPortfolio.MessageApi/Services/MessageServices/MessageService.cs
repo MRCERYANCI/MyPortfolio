@@ -3,7 +3,7 @@ using MyPortfolio.MessageApi.Context;
 using MyPortfolio.MessageApi.Dtos.MessageDtos;
 using MyPortfolio.MessageApi.Entities;
 
-namespace MyPortfolio.MessageApi.Services
+namespace MyPortfolio.MessageApi.Services.MessageServices
 {
     public class MessageService : IMessageService
     {

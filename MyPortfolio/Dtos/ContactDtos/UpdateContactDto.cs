@@ -1,4 +1,4 @@
-﻿namespace MyPortfolio.MessageApi.Dtos.ContactDtos
+﻿namespace MyPortfolio.Dtos.ContactDtos
 {
     public class UpdateContactDto
     {

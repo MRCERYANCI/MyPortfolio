@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyPortfolio.MessageApi.Dtos.MessageDtos;
-using MyPortfolio.MessageApi.Services;
+using MyPortfolio.MessageApi.Services.MessageServices;
 
 namespace MyPortfolio.MessageApi.Controllers
 {

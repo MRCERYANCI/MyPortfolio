@@ -1,6 +1,6 @@
-﻿namespace MyPortfolio.MessageApi.Dtos.ContactDtos
+﻿namespace MyPortfolio.Dtos.ContactDtos
 {
-    public class UpdateContactDto
+    public class ResultContactDto
     {
         public int ContactId { get; set; }
         public string PhoneNumber { get; set; }

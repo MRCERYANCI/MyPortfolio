@@ -1,6 +1,6 @@
 ﻿using MyPortfolio.MessageApi.Dtos.MessageDtos;
 
-namespace MyPortfolio.MessageApi.Services
+namespace MyPortfolio.MessageApi.Services.MessageServices
 {
     public interface IMessageService
     {

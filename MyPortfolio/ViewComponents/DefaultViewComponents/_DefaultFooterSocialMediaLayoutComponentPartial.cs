@@ -1,14 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyPortfolio.DAL.Context;
+
 namespace MyPortfolio.ViewComponents.DefaultViewComponents
 {
-    public class _TestimonialDefaultLayoutComponentPartial : ViewComponent
+    public class _DefaultFooterSocialMediaLayoutComponentPartial : ViewComponent
     {
         private readonly PortfolioContext _portfolioContext = new PortfolioContext();
 
         public IViewComponentResult Invoke()
         {
-            return View(_portfolioContext.Testimonials.ToList());
+            return View(_portfolioContext.SocialMedias.ToList());
         }
     }
 }
